@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outDir": "lib",
+        "rootDir": "src",
+        "allowJs": true,
+        "target": "ES2015",
+
+        "noImplicitAny": true,
+        "strict": true,
+
+        "moduleResolution": "node",
+        "declaration": true,
+        
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "skipLibCheck": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["./lib"]
+}

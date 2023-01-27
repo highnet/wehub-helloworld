@@ -1,0 +1,24 @@
+{
+    "name": "@wetouch/helloworld",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "prepublishOnly": "npm run build && npm version patch --no-git-tag-version"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "wehub": {},
+    "dependencies": {
+        "wehub": "^1.1.22"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    }
+}
