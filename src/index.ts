@@ -1,5 +1,7 @@
 import BaseExtension, { SocketIoSocket } from "wehub";
 
+// https://wissen.wetouch.at/wehub-tutorial-pt-4-extensions/ Catch-All Methods
+
 export default class Helloworld extends BaseExtension {
   private _ticks: number = 0;
   private _tickRate: number = 20000;
