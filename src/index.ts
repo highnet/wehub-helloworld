@@ -28,4 +28,15 @@ export default class Helloworld extends BaseExtension {
   statusFromClient(statusCode: string) {
     console.log(statusCode);
   }
+  onSocketConnect(socket: SocketIoSocket) {
+    console.log("A NEW SOCKET CONNECTED");
+  }
+
+  onSocketDisconnect(socket: SocketIoSocket) {
+    console.log("A SOCKET DISCONNECTED");
+  }
+
+  shutDown() {
+    console.log("goodbye 🙂");
+  }
 }
